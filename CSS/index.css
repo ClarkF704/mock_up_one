@@ -1,3 +1,22 @@
+body{
+    background-color: #491895;
+}
+.nav{
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+}
 .index-title{
     text-align:center;
+    color:white;
+}
+
+.nav-header{
+    padding-left:30px;
+    color:blue;
+    font-size: 30px;
+}
+.nav-points{
+    padding-left:30px;
+    color:#000;
 }
