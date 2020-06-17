@@ -8,6 +8,7 @@ function closeNav(){
     indexNav.style.display = "none";
     openNav.style.display = "initial";
     sideNavWhole.style.display = "none";
+    sideNavWhole.style.backgroundColor = "none";
 }
 
 function openNavFunc(){
