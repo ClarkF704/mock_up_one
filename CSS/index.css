@@ -2,7 +2,7 @@ body{
     background-color: #491895;
 }
 .nav{
-    height: 750px;
+    height: 850px;
     width: 100%;
     background-color: #fff;
     margin-right:40px;
@@ -46,5 +46,27 @@ body{
     color:white;
     margin-left:575px;
     font-size: 15px;
-    
+    padding-top:10px;
+    padding-left:17px;
+    transition: color 2s;
+    transition: background-color 2s;
+    cursor: pointer;
+}
+.info-btn:hover{
+    color:#000;
+    background-color:white;
+    cursor: pointer;
+}
+.icon-img-nav{
+    padding-left:5px;
+    padding-right:5px;
+    cursor: pointer;
+}
+.icon-nav-container{
+    padding-left:30px;
+}
+.rights-nav{
+    padding-left:30px;
+    font-size: 10px;
+    color:#000;
 }
