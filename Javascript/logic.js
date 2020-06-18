@@ -4,18 +4,13 @@ var indexNav = document.getElementById("indexNav");
 var openNav = document.getElementById("openNav");
 var sideNavWhole = document.getElementById("sideNav");
 
-function closeNav(){
-    indexNav.style.display = "none";
-    openNav.style.display = "initial";
-    sideNavWhole.style.display = "none";
-    sideNavWhole.style.backgroundColor = "none";
-}
-
-function openNavFunc(){
-    indexNav.style.display = "initial";
-    openNav.style.display = "none";
-    sideNavWhole.style.backgroundColor = "#fff";
-}
+function openNavv() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
 
 //
 
