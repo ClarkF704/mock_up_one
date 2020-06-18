@@ -59,7 +59,7 @@ body{
 .info-btn{
     background-color: #000;
     color:white;
-    margin-left:575px;
+    
     font-size: 15px;
     padding-top:10px;
     padding-left:17px;
@@ -135,6 +135,9 @@ body{
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+  }
+  .info-here{
+    text-align:center;
   }
   
   @media screen and (max-height: 450px) {
