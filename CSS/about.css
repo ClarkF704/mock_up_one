@@ -1,0 +1,25 @@
+#jumbotron{
+    float:bottom;
+    background-color: transparent;
+    color: rgb(236, 214, 13);
+}
+#text{
+    font-size: x-large;
+    color: #491895;
+    margin-top:20px;
+}
+.square_button{
+    display: inline-block;
+    border-radius:25px;
+    padding: 7px 20px;
+    background-color: rgb(236, 214, 13);
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    color: #491895;
+    transition: .4s;
+}
+
+#photo{
+    float: right;
+    
+}
